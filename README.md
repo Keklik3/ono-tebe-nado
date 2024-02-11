@@ -1,1 +1,1 @@
-git@github.com:Keklik3/first-project.git
+https://github.com/Keklik3/ono-tebe-nado.git
