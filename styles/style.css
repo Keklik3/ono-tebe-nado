@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 92px 24px 96px 24px;
+  margin: 92px 24px 90px 24px;
   width: 1052px;
   padding: 0 26px;
 }
@@ -18,7 +18,8 @@
 }
 
 .about {
-  display: block;
+  display: flex;
+  column-gap: 72px;
   margin: 146px 24px 0 24px;
   padding: 35px 0 0 47px;
   width: 1052px;
@@ -32,13 +33,10 @@
 
 .header-logo-black {
   display: block;
-  width: 148px;
-  height: 105px;
-  margin-right: 184px;
-}
-
-.bullet {
-  list-style: circle;
+  width: 135px;
+  height: 110px;
+  margin-right: 143px;
+  margin-top: 6px;
 }
 
 .header-menu-link {
@@ -48,8 +46,13 @@
   font-size: 18px;
   line-height: 21px;
 }
+
+.header-menu-item {
+  list-style-type: circle;
+}
+
 .header-menu-list {
-  gap: 30px;
+  gap: 33px;
   display: flex;
 }
 .header-menu-item-active {
@@ -58,6 +61,7 @@
 
 .contact {
   font-family: "Raleway", serif;
+  font-style: normal;
   font-size: 18px;
   font-weight: 400;
 }
@@ -80,8 +84,8 @@
 }
 
 .overlay {
-  max-height: 757px;
-  width: 100%;
+  width: 1100px;
+  min-height: 757px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
@@ -94,12 +98,13 @@
 }
 
 .text-left {
+  margin-top: 10px;
   text-align: left;
 }
 
 .text-center {
   text-align: center;
-  margin: 20px 345px 20px 286px;
+  margin: 25px 345px 20px 286px;
 }
 
 .text-right {
@@ -110,11 +115,11 @@
   font-family: "Raleway", serif;
   font-size: 22px;
   font-weight: 400;
+  color: #fff;
   text-transform: uppercase;
   z-index: 2;
   word-spacing: 18px;
   margin-left: 28px;
-  margin-top: 140px;
 }
 
 .button {
@@ -127,13 +132,14 @@
   text-transform: uppercase;
   z-index: 2;
   border: 1px #fff solid;
-  margin-left: 50px;
+  margin-left: 78px;
   padding: 12px 32px 11px 31px;
 }
 
 .cover-lower {
   display: block;
-  margin-top: 100px;
+  margin-top: 110px;
+  margin-left: 50px;
 }
 
 .lots {
@@ -146,7 +152,7 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin: 0 0 27px 40px;
+  margin: 98px 0 30px 40px;
 }
 
 .lots-container {
@@ -156,9 +162,10 @@
 
 .card {
   display: inline-block;
+  text-decoration: none;
   flex-grow: 1;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -166,13 +173,14 @@
 
 .flexbox {
   display: grid;
-  row-gap: 248px;
+  row-gap: 243px;
   padding: 51px 40px 48px 40px;
 }
 
 .film {
   background-image: url(../images/card-lot-01.jpg);
 }
+
 .card-content {
   display: block;
   padding: 51px 40px 48px 40px;
@@ -184,6 +192,10 @@
 
 .picture {
   background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots__card-list-item {
+  list-style: none;
 }
 
 .card-header {
@@ -208,7 +220,7 @@
 }
 
 .picture-text {
-  margin-top: 90px;
+  margin-top: 94px;
 }
 
 .seemore {
@@ -241,40 +253,30 @@
   height: 114px;
 }
 
-.title-about {
-  margin-left: 72px;
-}
-
 .blocktext {
   display: flex;
   font-family: "Raleway", serif;
+  width: 690px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  margin-left: 312px;
 }
 
-.header-text {
-  width: 688px;
-}
-
-.lower-text{
-  width: 693px;
-}
-
-.text-gap{
+.text-gap {
   display: grid;
   row-gap: 24px;
 }
 
 .logo-and-title {
-  display: flex;
+  display: inline-block;
   align-items: center;
 }
 
 .footer-menu-link {
   display: block;
   text-align: center;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .footer-img {
@@ -289,6 +291,6 @@
 }
 
 .address {
+  line-height: 24px;
   width: 240px;
 }
-
