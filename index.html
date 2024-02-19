@@ -13,8 +13,8 @@
     <header class="header">
       <nav class="header-menu">
         <ul class="header-menu-list">
-          <li class="header-menu-item header-menu-item-active">
-            <a class="header-menu-link">главная</a>
+          <li class="header-menu-item header-menu-item-no-bullit">
+            <a class="header-menu-link header-menu-item-active">главная</a>
           </li>
           <li class="header-menu-item">
             <a class="header-menu-link" href="#0">посмотреть лоты </a>
@@ -52,60 +52,60 @@
         </div>
       </section>
       <section class="lots">
-        <h2 class="black-title">лоты</h2>
+        <h2 class="black-title lots-title">лоты</h2>
         <ul class="lots__cards-list">
           <li class="lots__card-list-item">
-            <article class="lots-container">
-              <a class="card film" href="#0">
-                <div class="overlay-card">
-                  <div class="flexbox">
-                    <h3 class="card-header">
-                      Фильм режиссёра, который бросил киношколу
-                    </h3>
-                    <p class="card-text">
-                      Не просто бросил, а ушёл с первой лекции. Какой была бы
-                      ваша ставка, если бы вы не знали, что режиссёр — Пол Томас
-                      Андерсон?
-                    </p>
-                  </div>
+            <a class="card film" href="#0">
+              <div class="overlay-card">
+                <div class="card-content">
+                  <h3 class="card-header">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <p class="card-text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
                 </div>
-              </a>
-              <a class="card book" href="#0">
-                <div class="overlay-card">
-                  <div class="card-content">
-                    <h3 class="card-header">
-                      Книга, где описан один скучный день из жизни рекламного
-                      агента
-                    </h3>
-                    <p class="card-text">
-                      Объёмом почти в тысячу страниц. Иногда без знаков
-                      препинания и с переходами на древнеанглийский. В ней
-                      одновременно рассказывается о 16 июня 1904 года и об
-                      истории литературы, начиная с античных времён. И это всё
-                      накладывается на эпическую поэму Гомера. Сколько бы вы
-                      поставили на «Улисса» Джеймса Джойса?
-                    </p>
-                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card book" href="#0">
+              <div class="overlay-card">
+                <div class="card-content">
+                  <h3 class="card-header">
+                    Книга, где описан один скучный день из жизни рекламного
+                    агента
+                  </h3>
+                  <p class="card-text">
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                    и с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
                 </div>
-              </a>
-              <a class="card picture" href="#0">
-                <div class="overlay-card">
-                  <div class="card-content">
-                    <h3 class="card-header">
-                      Картина, которую повторит даже 5- летний сын маминой
-                      подруги
-                    </h3>
-                    <p class="card-text picture-text">
-                      Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                      что-то похожее на инфузорию-туфельку. Никаких полей,
-                      лесов, котиков... Сколько бы вы на такое поставили, если
-                      бы не знали, что это — одна из революционных работ
-                      Кандинского?
-                    </p>
-                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card picture" href="#0">
+              <div class="overlay-card">
+                <div class="card-content">
+                  <h3 class="card-header">
+                    Картина, которую повторит даже 5- летний сын маминой подруги
+                  </h3>
+                  <p class="card-text">
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков... Сколько бы вы на такое поставили, если бы не
+                    знали, что это — одна из революционных работ Кандинского?
+                  </p>
                 </div>
-              </a>
-            </article>
+              </div>
+            </a>
           </li>
         </ul>
         <a class="seemore" href="#0">посмотреть больше</a>
@@ -123,7 +123,7 @@
           </div>
         </div>
         <div class="text-gap">
-          <h2 class="black-title">об аукционе</h2>
+          <h2 class="black-title about-title">об аукционе</h2>
           <p class="blocktext">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -154,15 +154,21 @@
         <a class="footer-menu-link" href="#0">посмотреть лоты </a>
         <a class="footer-menu-link" href="#0">об аунционе</a>
       </nav>
-      <a class="footer-logs" href="#0">
-        <img class="footer-img" src="./images/yt.svg" alt="логотип youtube" />
-        <img class="footer-img" src="./images/vk.svg" alt="логотип vk" />
-        <img
-          class="footer-img"
-          src="./images/pinterest.svg"
-          alt="логотип pinterest"
-        />
-      </a>
+      <div class="footer-logs">
+        <a class="footer-logs-link" href="#0">
+          <img class="footer-img" src="./images/yt.svg" alt="логотип youtube" />
+        </a>
+        <a class="footer-logs-link" href="#0">
+          <img class="footer-img" src="./images/vk.svg" alt="логотип vk" />
+        </a>
+        <a class="footer-logs-link" href="#0">
+          <img
+            class="footer-img"
+            src="./images/pinterest.svg"
+            alt="логотип pinterest"
+          />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
